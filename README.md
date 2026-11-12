@@ -24,6 +24,7 @@ and AWS.
 | Repository | What it shows |
 |---|---|
 | [grounded-hotel-concierge](https://github.com/Babak73314/grounded-hotel-concierge) | Working .NET code with 422 tests: a hotel concierge where code computes every price and model text passes a deterministic gate. A slice of my own platform. |
+| [grounded-help-center](https://github.com/Babak73314/grounded-help-center) | Working TypeScript code with tests: a bilingual Next.js help center whose assistant answers only from its own articles, with hybrid retrieval in PostgreSQL (pgvector), a code-level answer check and an AWS CDK stack. Runs locally with no cloud account. |
 | [ai-platform-architecture](https://github.com/Babak73314/ai-platform-architecture) | No code. The architecture of my own enterprise AI platform: layers, dependency rules, AI orchestration, security and delivery status. |
 
 Most of my other work is private. Client code belongs to the client, and my own
@@ -65,7 +66,9 @@ and Azure SQL, with PDF-based form generation and audit history.
 React, Next.js and TypeScript site whose assistant answers only from published
 content: hybrid retrieval in Aurora PostgreSQL with pgvector, Claude on Amazon
 Bedrock, a code-level check on every answer, and infrastructure defined in AWS
-CDK.
+CDK. The Bedrock path is implemented and tested with stand-ins; it has not yet
+run against a live model. A public sample of the same architecture is in
+grounded-help-center.
 
 **Earlier work.** A sales and test-drive system for an automotive brand in
 Türkiye (Azure, .NET, Blazor) that went into production use, insurance CRM and
