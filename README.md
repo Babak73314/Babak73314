@@ -23,6 +23,7 @@ and AWS.
 
 | Repository | What it shows |
 |---|---|
+| [policypilot](https://github.com/Babak73314/policypilot) | Working Python and TypeScript code with 230 tests: an AI copilot for a fictional multi-carrier insurance agency. LangGraph agents on Claude with FastAPI, React and PostgreSQL (pgvector), where code computes every price, policy answers cite the wording and a licensed agent approves every application. Includes an MCP server, n8n workflows, a WhatsApp channel with a local simulator, and a 40-scenario eval suite that also ran against Claude through the live API. Runs locally with Docker and no API key. |
 | [grounded-hotel-concierge](https://github.com/Babak73314/grounded-hotel-concierge) | Working .NET code with 422 tests: a hotel concierge where code computes every price and model text passes a deterministic gate. A slice of my own platform. |
 | [grounded-help-center](https://github.com/Babak73314/grounded-help-center) | Working TypeScript code with tests: a bilingual Next.js help center whose assistant answers only from its own articles, with hybrid retrieval in PostgreSQL (pgvector), a code-level answer check and an AWS CDK stack. Runs locally with no cloud account. |
 | [ai-platform-architecture](https://github.com/Babak73314/ai-platform-architecture) | No code. The architecture of my own enterprise AI platform: layers, dependency rules, AI orchestration, security and delivery status. |
@@ -80,8 +81,9 @@ sales.
 - **Languages and frameworks:** C#, .NET 8/9/10, ASP.NET Core, Blazor, EF Core,
   TypeScript, React, Next.js, Python, FastAPI
 - **AI and retrieval:** Azure OpenAI, Microsoft Foundry, Anthropic Claude,
-  Google Gemini, Microsoft Agent Framework, RAG with hybrid search, structured
-  output, tool calling, live voice over WebRTC
+  Google Gemini, Microsoft Agent Framework, LangChain and LangGraph, MCP
+  servers, RAG with hybrid search, structured output, tool calling, live voice
+  over WebRTC
 - **Azure:** Functions, App Service, Service Bus, Azure SQL, AI Search, Document
   Intelligence, Key Vault, Application Insights
 - **AWS:** CDK, Lambda, Aurora PostgreSQL, Amazon Bedrock, S3, CloudFront
